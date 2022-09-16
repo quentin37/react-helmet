@@ -14,9 +14,9 @@ function App() {
       <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/Mes_projet" element={<Project />} />
-        <Route path="/About_Me" element={<Description />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Mes_projet" element={<Project />} />
+          <Route path="/About_Me" element={<Description />} />
         </Routes>
       </BrowserRouter>
     </HelmetProvider>
